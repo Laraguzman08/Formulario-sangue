@@ -12,11 +12,11 @@ document.getElementById("formDoacao").addEventListener("submit", function(e) {
     let cidade = document.getElementById("cidade").value;
     let estado = document.getElementById("estado").value;
 
-    let resultado = document.getElementById("resultado");
-
     if(nome === "" || email === "" || idade === "" || peso === "" || sangue === "" || 
-        telefone === "" || cidade === "" || estado === "") {
-            resultado = alert("Todos os campos são obrigatórios!");
-            return;
-    }
+        telefone === "" || cidade === "" || estado === "") return alert("Todos os campos são obrigatórios!");
+
+    if(nome.split(" ").length < 2) return alert("Nome deve conter pelo menos nome e sobrenome!");
+
+    if(!email.includes("@")) return alert("Insira um email com formato válido!");
+
 })
