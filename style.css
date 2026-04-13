@@ -4,13 +4,26 @@ body {
 
 header {
     background-color: hwb(0 100% 0%);
-    color:lab(63.25% 53.36 9.29);
+    color:oklab(70.46% 0.16279 0.02163);
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
-    text-align: center;
     padding: 10px;
     margin: 10px;
     border-radius: 5%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    width: 150px;
+    height: 100px;
+}
+
+#enhypen {
+    width: 130px;
+    height: 110px;
+    margin-right: 25px;
 }
 
 #vid-fundo {
