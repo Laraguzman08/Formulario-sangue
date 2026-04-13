@@ -43,3 +43,12 @@ h2 {
     border-radius: 5%;
     width: 300px;
 }
+
+#resultado {
+    font-size: 18px;
+}
+
+#sunghoon {
+    width: 200px;
+    display: none; /* deixa o elemento invisível na tela */
+}

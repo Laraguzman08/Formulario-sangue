@@ -38,4 +38,5 @@ document.getElementById("formDoacao").addEventListener("submit", function(e) {
 
     // resultado aparece na página
     document.getElementById("resultado").innerHTML = "Cadastro realizado com sucesso!❤️";
+    document.getElementById("sunghoon").style.display = "block"; // muda o display none pra block, fazendo o gif aparecer na tela
 })
