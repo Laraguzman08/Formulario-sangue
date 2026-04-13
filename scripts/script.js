@@ -41,10 +41,12 @@ document.getElementById("formDoacao").addEventListener("submit", function(e) {
     document.getElementById("sunghoon").style.display = "block"; // muda o display none pra block, fazendo o gif aparecer na tela
 })
 
-document.getElementById("limpar").addEventListener("click", function() {
-    document.getElementById("formDoacao").reset();
-    document.getElementById("resultado").innerHTML = "";
-    document.getElementById("sunghoon").style.display = "none";
+document.getElementById("limpar").addEventListener("click", function() { 
+// pega o botão com id limpar e executa o código quando ele é clicado
+    document.getElementById("formDoacao").reset(); // limpa todos os campos do formulário
+    document.getElementById("resultado").innerHTML = ""; // apaga a mensagem do resultado
+    document.getElementById("sunghoon").style.display = "none"; 
+    // esconde o gif do Sunghoon, mudando o display de block pra none de novo
 })
 
 // MÚSICA
