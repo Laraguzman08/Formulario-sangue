@@ -1,3 +1,4 @@
+let doadores = []; //array fora do submit para ir acumulando doadores sem perder dados anteriores
 document.getElementById("formDoacao").addEventListener("submit", function(e) { 
 // pega o formulário pelo id e executa o código quando o form é enviado
     e.preventDefault(); // impede o comportamento padrão do formulário, que seria recarregar a página ao enviar
@@ -11,7 +12,6 @@ document.getElementById("formDoacao").addEventListener("submit", function(e) {
     let telefone = document.getElementById("telefone").value;
     let cidade = document.getElementById("cidade").value;
     let estado = document.getElementById("estado").value;
-    let doadores = [];
 
     // validações
     if(nome === "" || email === "" || idade === "" || peso === "" || sangue === "" || 
@@ -36,5 +36,6 @@ document.getElementById("formDoacao").addEventListener("submit", function(e) {
     doadores.push(doador); // adiciona objeto doador dentro do array doadores
     console.log(doadores);
 
+    // resultado aparece na página
     document.getElementById("resultado").innerHTML = "Cadastro realizado com sucesso!❤️";
 })
