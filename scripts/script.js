@@ -19,4 +19,10 @@ document.getElementById("formDoacao").addEventListener("submit", function(e) {
 
     if(!email.includes("@")) return alert("Insira um email com formato válido!");
 
+    if(idade < 16) return alert("Você precisa ter no mínimo 16 anos para doar sangue.");
+
+    if(peso < 50) return alert("O peso mínimo para doar é 50kg.");
+
+    if(isNaN(telefone)) return alert("Telefone deve conter apenas números!");
+
 })
