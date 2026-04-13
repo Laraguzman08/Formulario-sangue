@@ -10,6 +10,7 @@ header {
     text-align: center;
     padding: 10px;
     margin: 10px;
+    border-radius: 5%;
 }
 
 #vid-fundo {
@@ -27,4 +28,18 @@ header {
     object-fit: cover;
     /* coloca o vídeo atrás de todos os outros elementos */
     z-index: -1;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form {
+    background-color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5%;
+    width: 300px;
 }
