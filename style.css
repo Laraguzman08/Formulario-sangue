@@ -1,18 +1,20 @@
 body {
     margin:0%;
 }
-
 header {
     background-color: hwb(0 100% 0%);
     color:oklab(70.46% 0.16279 0.02163);
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
-    padding: 10px;
     margin: 10px;
     border-radius: 5%;
     display:flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.ajuste {
+    justify-items: center;
 }
 
 #logo {
@@ -51,14 +53,14 @@ h2 {
     background-color: azure;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 12px;
-    padding: 20px;
+    padding: 15px;
     margin: 10px;
     border-radius: 5%;
     width: 300px;
 }
 
 #resultado {
-    font-size: 18px;
+    font-size: 15px;
 }
 
 #sunghoon {
