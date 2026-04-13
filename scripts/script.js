@@ -40,3 +40,9 @@ document.getElementById("formDoacao").addEventListener("submit", function(e) {
     document.getElementById("resultado").innerHTML = "Cadastro realizado com sucesso!❤️";
     document.getElementById("sunghoon").style.display = "block"; // muda o display none pra block, fazendo o gif aparecer na tela
 })
+
+// MÚSICA
+    const musica = document.getElementById("som"); // usa const aqui porque o elemento de música é sempre o mesmo
+    document.addEventListener('click', function() { // o primeiro clique na página libera o áudio
+        musica.play(); // começa a música
+    }, {once: true}); // garante que o código só rode no primeiro clique
