@@ -41,6 +41,12 @@ document.getElementById("formDoacao").addEventListener("submit", function(e) {
     document.getElementById("sunghoon").style.display = "block"; // muda o display none pra block, fazendo o gif aparecer na tela
 })
 
+document.getElementById("limpar").addEventListener("click", function() {
+    document.getElementById("formDoacao").reset();
+    document.getElementById("resultado").innerHTML = "";
+    document.getElementById("sunghoon").style.display = "none";
+})
+
 // MÚSICA
     const musica = document.getElementById("som"); // usa const aqui porque o elemento de música é sempre o mesmo
     document.addEventListener('click', function() { // o primeiro clique na página libera o áudio

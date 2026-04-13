@@ -60,6 +60,15 @@ h2 {
     width: 300px;
 }
 
+#botoes {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    margin: 3px;
+}
+
 #resultado {
     font-size: 15px;
 }
