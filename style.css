@@ -1,14 +1,30 @@
 body {
     margin:0%;
-
 }
 
 header {
-    background-color: #ff99b2;
-    color:hsl(345, 100%, 95%);
+    background-color: hwb(0 100% 0%);
+    color:lab(63.25% 53.36 9.29);
     font-family:'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: center;
     padding: 10px;
     margin: 10px;
+}
+
+#vid-fundo {
+    /* fixed fixa o vídeo na tela para que não saia do lugar */
+    position: fixed;
+    /* para zerar as distâncias das bordas e ocupar todo o espaço */
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* garante que ocupe 100% da largura e altura */
+    width: 100%;
+    height: 100%;
+    /* faz o vídeo cobrir a tela inteira sem esticar (mantém a proporção) */
+    object-fit: cover;
+    /* coloca o vídeo atrás de todos os outros elementos */
+    z-index: -1;
 }
