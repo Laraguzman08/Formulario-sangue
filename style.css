@@ -1,0 +1,14 @@
+body {
+    margin:0%;
+
+}
+
+header {
+    background-color: #ff99b2;
+    color:hsl(345, 100%, 95%);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
