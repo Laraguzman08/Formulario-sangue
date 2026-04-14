@@ -55,7 +55,7 @@ h2 {
 .form {
     position: fixed;
     top: 170px;
-    left: 20px;
+    left: 30px;
     background-color: azure;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 12px;
@@ -85,7 +85,7 @@ h2 {
 #container-jungwon {
     position: fixed;
     top: 170px;
-    right: 20px;
+    right: 30px;
     width: 250px;
     text-align: center;
 }
