@@ -66,11 +66,10 @@ h2 {
 
 #botoes {
     display: flex;
-    justify-content: center;
 }
 
 .botao {
-    margin: 3px;
+    margin-left: 12px;
 }
 
 #resultado {
