@@ -74,13 +74,13 @@ h2 {
 }
 
 #sunghoon {
-    width: 190px;
+    width: 180px;
     display: none; /* deixa o elemento invisível na tela */
 }
 
 #container-jungwon {
     position: fixed;
-    top: 170px;
+    top: 190px;
     right: 20px;
     width: 250px;
     text-align: center;
