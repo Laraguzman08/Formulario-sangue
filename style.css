@@ -2,6 +2,8 @@ body {
     margin:0%;
 }
 header {
+    position: sticky;
+    top: 0%;
     background-color: hwb(0 100% 0%);
     color:oklab(70.46% 0.16279 0.02163);
     font-family:'Times New Roman', Times, serif;
@@ -51,11 +53,13 @@ h2 {
 }
 
 .form {
+    position: fixed;
+    top: 170px;
+    left: 20px;
     background-color: azure;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 12px;
     padding: 10px;
-    margin: 15px;
     border-radius: 5%;
     width: 300px;
 }
@@ -80,7 +84,7 @@ h2 {
 
 #container-jungwon {
     position: fixed;
-    top: 190px;
+    top: 170px;
     right: 20px;
     width: 250px;
     text-align: center;
